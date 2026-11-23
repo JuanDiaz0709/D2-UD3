@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Página</title>
+</head>
+<body>
+<h1>Bienvenido <span th:text="${usuario}"></span></h1>
+<p>Estás en: <span th:text="${pagina}"></span></p>
+
+<p>
+<a href="/">Inicio</a>
+<a href="/pagina1">Página 1</a>
+<a href="/pagina2">Página 2</a>
+<a href="/logout">Cerrar sesión</a>
+</p>
+</body>
+</html>

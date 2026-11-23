@@ -1,0 +1,30 @@
+# Archivos generados por Gradle (NO subir)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos del IDE Eclipse / Spring Tools Suite (NO subir)
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+bin/
+
+# Archivos de IntelliJ / VS Code (NO subir)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Memoria y capturas: se entregan aparte, no en el repositorio
+docs/
+*.pdf
